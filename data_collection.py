@@ -113,20 +113,20 @@ def main():
         get_stock_list()
         stock_list = get_stock_list_from_sql()
 
-    # # get daily price
-    # daily_data(stock_list)
-    #
-    # # get balance sheet
-    # balance_sheet(stock_list)
-    #
-    # # get income sheet
-    # income_sheet(stock_list)
-    #
-    # # get cash flow
-    # cash_flow(stock_list)
-    #
-    # # get financial ratio
-    # financial_ratio(stock_list)
+    # get daily price
+    daily_data(stock_list)
+
+    # get balance sheet
+    balance_sheet(stock_list)
+
+    # get income sheet
+    income_sheet(stock_list)
+
+    # get cash flow
+    cash_flow(stock_list)
+
+    # get financial ratio
+    financial_ratio(stock_list)
 
     # get hfq adj daily price
     daily_data_hfq(stock_list)

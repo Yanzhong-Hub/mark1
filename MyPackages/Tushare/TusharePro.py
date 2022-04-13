@@ -13,6 +13,7 @@ class TushareData:
     def __init__(self):
         self.pro = ts.pro_api('8048cbf9b5b32cf6c5ca12b8863a1869901b566749dccbd796b458b5')
         ts.set_token('8048cbf9b5b32cf6c5ca12b8863a1869901b566749dccbd796b458b5')
+
     # pro bar, general api for all data
     # https://tushare.pro/document/2?doc_id=109
     def pro_bar(self, ts_code, start_date, end_date, asset='E', adj='hfq', freq='D'):
